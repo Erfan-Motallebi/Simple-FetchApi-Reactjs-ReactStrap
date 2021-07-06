@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f7c59f;
+}
+
+main {
+  max-width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+div {
+  max-width: 60%;
+  margin: 50px auto;
+  text-align: center;
+}
+input {
+  font-size: 3ex;
+  outline-style: unset;
+}
+button {
+  font-size: 3ex;
+  width: 100px;
+  border-radius: 5px;
+  height: 30px;
+  border: unset;
+  background: rgb(187, 131, 121);
+  margin: 10px 0 0 5px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+button:hover {
+  transition: 0.4s ease-in-out;
+  box-shadow: 0 0 5px 2px #2a324b;
+}
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: 0.4s ease-in-out;
+}
+img:hover {
+  transition: 0.4s ease-in-out;
+  box-shadow: 0 0 5px 2px #2a324b;
+}
+section {
+  display: flex;
+  background: #c7ccdb;
+  border-radius: 0.3rem;
+  padding: 10px 20px;
+  justify-content: space-between;
+  transition: 0.4s ease-in-out;
+}
+section:hover {
+  transition: 0.4s ease-in-out;
+  box-shadow: 0 0 5px 2px #2a324b;
+}
+section h3 {
+  align-self: center;
+  margin-left: 10px;
+  background: #767b91;
+  padding: 10px;
+  border-radius: 0.5rem;
+  transition: 0.4s ease-in-out;
+}
+section h3:hover {
+  transition: 0.4s ease-in-out;
+  box-shadow: 0 0 5px 2px #2a324b;
+}

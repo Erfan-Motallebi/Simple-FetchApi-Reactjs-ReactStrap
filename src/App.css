@@ -1,0 +1,40 @@
+div.container {
+  width: 70%;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: 0.4s ease-in-out;
+}
+img:hover {
+  transition: 0.4s ease-in-out;
+  box-shadow: 0 0 5px 2px #2a324b;
+}
+
+section {
+  display: flex;
+  background: #c7ccdb;
+  border-radius: 0.3rem;
+  padding: 5px 10px;
+  justify-content: space-between;
+  transition: 0.4s ease-in-out;
+  margin: 10px 0 10px 0;
+}
+section:hover {
+  transition: 0.4s ease-in-out;
+  box-shadow: 0 0 5px 2px #2a324b;
+}
+section h4 {
+  align-self: center;
+  margin-left: 10px;
+  background: #767b91;
+  padding: 10px;
+  border-radius: 0.5rem;
+  transition: 0.4s ease-in-out;
+}
+section h3:hover {
+  transition: 0.4s ease-in-out;
+  box-shadow: 0 0 5px 2px #2a324b;
+}
